@@ -1,0 +1,42 @@
+starting sh file
+--2023-04-25 23:29:29--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2020&Month=2&Day=14&timeframe=1&submit=Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/omar/labs/lab1/input/2020.csv’
+
+     0K .......... .......... .......... .......... ..........  147K
+    50K .......... .......... .......... .......... ..........  293K
+   100K .......... .......... .......                          1.64M=0.5s
+
+2023-04-25 23:29:30 (242 KB/s) - ‘/home/omar/labs/lab1/input/2020.csv’ saved [130712]
+
+--2023-04-25 23:29:30--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2021&Month=2&Day=14&timeframe=1&submit=Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/omar/labs/lab1/input/2021.csv’
+
+     0K .......... .......... .......... .......... ..........  145K
+    50K .......... .......... .......... .......... ..........  291K
+   100K .......... .......... ...                              41.4M=0.5s
+
+2023-04-25 23:29:32 (239 KB/s) - ‘/home/omar/labs/lab1/input/2021.csv’ saved [126714]
+
+--2023-04-25 23:29:32--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2022&Month=2&Day=14&timeframe=1&submit=Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: ‘/home/omar/labs/lab1/input/2022.csv’
+
+     0K .......... .......... .......... .......... ..........  145K
+    50K .......... .......... .......... .......... ..........  286K
+   100K .......... .......... ...                              42.6M=0.5s
+
+2023-04-25 23:29:33 (238 KB/s) - ‘/home/omar/labs/lab1/input/2022.csv’ saved [126636]
+
+Success downloading data. Running Python Script Now
+Success
